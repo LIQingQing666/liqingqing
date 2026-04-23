@@ -39,7 +39,7 @@
 
 ### 1. 🍱 苍穹外卖 - Spring Cloud 微服务版
 基于苍穹外卖项目改造的餐饮管理系统，采用微服务架构拆分业务模块，实现用户端与商家端全流程业务闭环。
-- 🔗 项目地址：`https://github.com/LIQingQing666/liqingqing`
+- 🔗 项目地址：https://github.com/LIQingQing666/sky-take-out-micro
 - ✨ 核心亮点：
   - 基于 Spring Cloud Gateway 实现网关统一鉴权、路由与限流
   - 全局异常处理器，统一业务异常与响应封装
@@ -48,7 +48,7 @@
 
 ### 2. 🧠 私有知识库 RAG 问答系统
 基于 RAG 构建的智能问答系统，针对复杂问题路由、多轮对话连续性进行优化，提升问答准确率。
-- 🔗 项目地址：`https://github.com/LIQingQing666/rag-knowledge-qa`
+- 🔗 项目地址：https://github.com/LIQingQing666/agent-123
 - ✨ 核心亮点：
   - 树状意图路由 + LLM 打分，实现多维度问题分类
   - 分层检索策略：高置信度定向检索 + 低置信度全局兜底，降低误路由风险
