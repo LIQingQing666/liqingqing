@@ -1,72 +1,75 @@
 # 👋 你好
-
 后端开发工程师 | Java & Spring Cloud 微服务实践者 | RAG 大模型应用开发者
 
+---
+
 ## 👨‍💻 关于我
-- 🎓 西安电子科技大学 信息与通信工程专业 在读硕士
-- 💻 专注后端开发、微服务架构设计与 RAG 大模型应用落地
-- 🚀 热爱构建高可用、高性能、易扩展的分布式系统
-- 📚 持续学习云原生、分布式事务、中间件等后端技术
+- 🎓 **西安电子科技大学 | 信息与通信工程 | 在读硕士**
+- 💻 专注于 **Java 后端、微服务架构、分布式系统、高并发业务** 开发
+- 🤖 具备 **RAG 大模型应用、知识库问答、意图理解与检索增强** 工程实践经验
+- 🚀 热衷于构建 **高可用、高性能、易扩展** 的分布式服务与中间件应用
+- 📚 持续深耕云原生、分布式事务、缓存架构、消息队列等后端技术
 
 ---
 
 ## 🛠 技术栈
 
 ### 后端开发
-- **核心语言**：Java 8/17
-- **主流框架**：Spring Boot / Spring Cloud / Spring Cloud Alibaba
-- **ORM 框架**：MyBatis / MyBatis-Plus
+![Java](https://img.shields.io/badge/Java-17-%23ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-%236DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/SpringCloud-Alibaba-%236DB33F?style=flat-square&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis--Plus-%23339999?style=flat-square&logo=mybatis&logoColor=white)
 
 ### 数据与中间件
-- **数据库**：MySQL、Redis
-- **注册/配置中心**：Nacos
-- **网关**：Spring Cloud Gateway
-- **消息队列**：RocketMQ
-- **对象存储**：MinIO
+![MySQL](https://img.shields.io/badge/MySQL-8.x-%234479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DC382D?style=flat-square&logo=redis&logoColor=white)
+![Nacos](https://img.shields.io/badge/Nacos-%23FC4C02?style=flat-square&logo=alibaba&logoColor=white)
+![Gateway](https://img.shields.io/badge/Gateway-%23269539?style=flat-square&logo=spring&logoColor=white)
+![RocketMQ](https://img.shields.io/badge/RocketMQ-%231E88E5?style=flat-square&logo=apache&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-%23C2185B?style=flat-square&logo=minio&logoColor=white)
 
-### DevOps 与工具
-- 版本控制：Git
-- 容器化：Docker
-- 操作系统：Linux
+### DevOps & 工具
+![Git](https://img.shields.io/badge/Git-%23F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-%23FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ### AI 工程实践
-- 大模型应用：LangChain、Milvus 向量数据库
-- 检索增强：RAG 知识库问答系统、意图路由、分层检索
+![Python](https://img.shields.io/badge/Python-3.10-%233776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-%2300B4AB?style=flat-square&logo=langchain&logoColor=white)
+![Milvus](https://img.shields.io/badge/Milvus-%2300A3FF?style=flat-square&logo=milvus&logoColor=white)
 
 ---
 
 ## 📌 代表项目
 
-### 1. 🍱 苍穹外卖 - Spring Cloud 微服务版
-基于苍穹外卖项目改造的餐饮管理系统，采用微服务架构拆分业务模块，实现用户端与商家端全流程业务闭环。
+### 1. 🍱 苍穹外卖 - 微服务架构版
+**基于 Spring Cloud Alibaba 重构的餐饮外卖微服务系统**，完成用户端、商家端全流程业务闭环。
 - 🔗 项目地址：https://github.com/LIQingQing666/sky-take-out-micro
 - ✨ 核心亮点：
-  - 基于 Spring Cloud Gateway 实现网关统一鉴权、路由与限流
-  - 全局异常处理器，统一业务异常与响应封装
-  - Redis 热点数据缓存优化，提升接口响应速度
-  - 用户端、商家端业务微服务拆分，降低模块耦合度
+  - 基于 Spring Cloud Gateway 实现统一鉴权、动态路由、限流防护
+  - 全局异常处理 + 统一响应封装，提升接口标准化与可维护性
+  - Redis 热点数据缓存，大幅降低数据库压力，提升接口响应速度
+  - 微服务模块化拆分，服务职责清晰，降低耦合，便于扩展与维护
 
-### 2. 🧠 私有知识库 RAG 问答系统
-基于 RAG 构建的智能问答系统，针对复杂问题路由、多轮对话连续性进行优化，提升问答准确率。
+### 2. 🧠 私有知识库 RAG 智能问答系统
+基于 RAG 架构构建的企业级知识库问答系统，专注复杂场景问答准确率与鲁棒性优化。
 - 🔗 项目地址：https://github.com/LIQingQing666/agent-123
 - ✨ 核心亮点：
-  - 树状意图路由 + LLM 打分，实现多维度问题分类
-  - 分层检索策略：高置信度定向检索 + 低置信度全局兜底，降低误路由风险
-  - 歧义澄清机制，针对多义问题主动反问用户
-  - 会话记忆优化，支持多轮对话上下文理解
-
----
+  - 树状意图路由 + LLM 打分机制，实现高精度问题分类与意图理解
+  - 分层检索策略：高置信度精准检索 + 低置信度全局兜底，减少误召回
+  - 歧义问题主动澄清机制，提升复杂/模糊问题的问答效果
+  - 会话记忆管理，支持多轮对话上下文理解，提升用户体验
 
 ---
 
 ## 📫 联系方式
 - 📧 邮箱：2869636206@qq.com
 - 💼 微信：qingqing_li0315
-- 📍 所在地：西安，中国
+- 📍 地区：西安，中国
 
 ---
 
-### 💡 求职意向
-- 目标岗位：Java 后端开发工程师
-- 期望方向：微服务、分布式系统、中间件开发、AI 工程应用
-- 求职状态：2027 届应届毕业生，正在积极寻找后端开发相关岗位，期待加入技术团队一起成长！
+## 💡 求职意向
+- **目标岗位**：Java 后端开发工程师
+- **期望方向**：微服务、分布式系统、中间件、高并发业务、AI 工程应用
+- **求职状态**：2027 届应届硕士，正在求职中，期待加入优秀技术团队共同成长！
